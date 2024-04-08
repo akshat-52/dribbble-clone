@@ -1,0 +1,179 @@
+/* Global CSS file, e.g., global.css */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.header h1 {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.header p {
+  text-align: center;
+}
+
+.header .logo {
+  text-align: center;
+}
+
+.header .logo img {
+  cursor: pointer;
+  width: 100px;
+}
+
+.menu {
+  background-color: #000;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.menu .menuItem {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.menu .menuItem a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.page {
+  padding: 30px;
+}
+
+.page h1 {
+  text-align: center;
+}
+
+.page h2 {
+  text-align: center;
+}
+
+.page p {
+  text-align: center;
+}
+
+.inputs .input {
+  text-align: center;
+}
+
+.inputs .input input {
+  height: 30px;
+  width: 300px;
+  margin: 5px 0;
+}
+
+.inputs .button {
+  text-align: center;
+}
+
+.inputs .button button {
+  background-color: #555;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  width: 308px;
+  margin: 10px 0;
+}
+
+.error {
+  background-color: red;
+  width: 280px;
+  margin: 5px 0;
+  margin: 0 auto;
+  padding: 15px;
+  color: #fff;
+}
+
+.footer-container {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100vw;
+  font-size: small;
+  box-sizing: border-box;
+  background-color: #f3e4e4;
+  /* Add a background color for better visibility */
+  padding: 20px;
+  /* Add padding for spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+  /* Add space between links */
+}
+
+.footer-divider {
+  margin: 0 5px;
+  /* Add space between dividers */
+}
+
+.logo {
+  margin: 0 20px;
+  /* Add space between logo and other elements */
+}
+
+.footer-text {
+  margin-left: auto;
+  max-width: 80%;
+  /* Limit maximum width of text */
+  overflow: hidden;
+  /* Hide overflow text */
+  text-overflow: ellipsis;
+  /* Display ellipsis for overflow text */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+  /* Push text to the right */
+}
+
+.custom-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* Set the container height to the full viewport height */
+}
+
+/* .button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+.custom-button {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: pink;
+  /* Lighter shade of pink on hover */
+}
