@@ -9,7 +9,7 @@ export const Home = () => {
      }
 
      return (
-          <div className="page">
+          <div className="page1">
                <h1>The world’s destination for design</h1>
                <p>Get inspired by the work of millions of top-rated designers & agencies around the world.</p>
                <div className="custom-button-container">
