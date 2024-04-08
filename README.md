@@ -1,19 +1,41 @@
-# Kodie Tutorials
+# Dribbble Clone
 
-For more code and video walkthroughs, please consider subscribing to the Youtube channel https://www.youtube.com/@kodiecode
+This project is a clone of the popular design platform Dribbble. It allows users to browse through designs, discover talented designers, and showcase their own work.
 
-## How to create Private Routes and Authentication with React Router V6
+## Table of Contents
 
-For a video walkthrough of this code, what is does and why, please visit https://youtu.be/q94v5AhgrW4
+- [Features](#features)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## What does this do?
+## Features
 
-This project gives you the base for creating private routes and authentication with React and React Router V6. For any help or advice, please comment on the youtube video link about.
+- Browse through a curated collection of designs.
+- View details of each design, including likes, comments, and designer information.
+- Search for specific designs or designers.
+- Upload and showcase your own designs.
+- Like and comment on designs.
+- Follow your favorite designers.
+- User authentication and authorization.
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Insert link to live demo or screenshots here]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+
+- **Frontend**: React.js, React Router, CSS
+- **Backend**: [Backend technology used]
+- **Database**: [Database technology used]
+- **Authentication**: JWT (JSON Web Tokens)
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/dribbble-clone.git
